@@ -6,7 +6,7 @@ describe("#FactService", function() {
     var fact = FactService.getCamelFact();
     console.log("FACT from factService.js -> ", fact);
     //Expect a camel fact to return from the fact service.
-    expect(fact["camel-fact"]).toContain("Camls");
+    expect(fact["camel-fact"]).toContain("Camels");
   });
 
   it("should return a fact about ostrichs", function() {
